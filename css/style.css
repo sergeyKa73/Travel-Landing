@@ -358,3 +358,138 @@
     z-index: 4;
 }
 /* Places end*/
+/*Touts start*/
+.tours{
+    margin-bottom: 139px;
+}
+
+.tours__tour {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 108px;
+    align-items: center;
+    margin-bottom: 77px;
+}
+
+.tour__info {
+    padding-left: 47px;    
+}
+
+.tour__pic {
+    background-color: #D8D8D8;
+}
+
+.tours__title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #102746;
+    margin-bottom: 85px;
+}
+
+.tour__desk{
+    font-size: 16px;
+    line-height: 24px;
+    color: #102746;
+    margin-bottom: 58px;
+}
+
+.tour__link {
+    padding-right: 59px;
+    color: #006DFE;
+    text-decoration: none;
+    background: url(../img/svg/Shape.svg) no-repeat right center;
+}
+
+.tour__link:hover, .tour__link:focus {
+    opacity: .65;    
+}
+/*Tours end*/ 
+/* Top start*/
+.top {
+    margin-bottom: 86px;
+}
+
+.top__title {
+    margin-bottom: 64px;
+}
+
+.top__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 57px;
+
+}
+
+.top__card {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.top__card__pic {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.top__card__stats {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(21, 24, 36, 0.6);
+    padding: 16px 25px;
+}
+
+.top__card__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0 auto 0 0;
+}
+
+.top__card__likes {
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-right: 20px;
+    background: url(../img/svg/like.svg) no-repeat right;
+    margin-right: 14px;
+}
+
+.top__card__coments {
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-right: 23px;
+    background: url(../img/svg/atticle.svg) no-repeat right;
+}
+
+.top__card__desk {
+    line-height: 24px;
+    color: #102746;
+    margin-bottom: 31px;
+} 
+
+.top__card__more {
+    width: 118px;
+    padding: 12px 19px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #FFFFFF;
+    background: #1B7DFF;
+    border: 0;
+    text-decoration: none;
+    margin: auto 0 0 0;
+}
+
+.top__card__more:hover, .top__card__more:focus, .top__card__more:active{
+    background: #094a9e;
+}
+
+/* Top end*/
